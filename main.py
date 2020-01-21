@@ -9,9 +9,21 @@ STARTIT_REQUEST_BODY = {
 }
 
 
+def jsonToCsv(data):
+	return 0
+
+
+def selectSubPhases(intervals):
+	return 0
+
+
+def plotGraph(data):
+	return 0
+
+
 url = STARTIT_DB_URL
 myobj = STARTIT_REQUEST_BODY
 
 x = requests.post(url, data = myobj)
 
-print(x.text)
+#print(x)
